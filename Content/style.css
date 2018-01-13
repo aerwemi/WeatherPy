@@ -2,3 +2,6 @@
     display: block;
     width: 40%;
 }
+.span3 {  
+    height: 500px !important;
+    overflow: scroll;
