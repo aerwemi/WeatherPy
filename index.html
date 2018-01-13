@@ -1,58 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>WeatherPy</title>
+    <meta charset="utf-8" />
+    <title>Main Page Weather APP</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
 </head>
-
 <body>
-  <section>
-    <h1>WeatherPy</h1>
-    <article>
-      <a target="_blank" href="images/CityLatitudeVsClouds.png">
-        <img src="images/CityLatitudeVsClouds.png" alt="Cloudy Map">
-      </a>
-      <p><em>Cloudy Map</em></p>
-    </article>
-    <hr>
-    <article>
-      <a target="_blank" href="images/CityLatitudeVshumidity.png">
-        <img src="images/CityLatitudeVshumidity.png" alt="Humidity Map">
-      </a>
-      <p><em>Humidity Map</em></p>
-    </article>
-    <hr>
-    <article>
-      <a target="_blank" href="images/CityLatitudeVsMaxTemperature.png">
-        <img src="images/CityLatitudeVsMaxTemperature.png" alt="Tempurature Map">
-      </a>
-      <p><em>Temperature Map</em></p>
-    </article>
-    <hr>
-    <!-- an example using figure/ficaption -->
-    <figure>
-      <a target="_blank" href="images/CityLatitudeVsWindSpeed.png">
-        <img src="images/CityLatitudeVsWindSpeed.png" alt="Wind Map">
-      </a>
-      <figcaption><em>Wind Speed Map</em></figcaption>
-    </figure>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="/Index.html" class="navbar-brand">Weather Py!</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-navigation">
+                    <span class="sr-only">Navigation toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="hamburger-navigation">
+                <div class="navbar-text navbar-right">
+                    <a class="navbar-link" href="URL here">
+                        <img class="logo-nav" src="nas_data.png" alt="logo"/>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav" role="menu">
+                    <li><a href="#" class="active">Comparisons</a><span class="sr-only">current</span></li>
+                    <li><a href="data.html">Data</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" role="button" data-toggle="dropdown">Plots<span class="caret" /></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Stations</a></li>
+                            <li><a href="#">Max Temprature</a></li>
+                            <li><a href="#">Humidity</a></li>
+                            <li><a href="#">Cloudiness</a></li>
+                            <li><a href="#">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    </article>
-    <hr>
-    <!-- an example using figure/ficaption -->
-    <figure>
-      <a target="_blank" href="images/CityLatitudeVspressure.png">
-        <img src="images/CityLatitudeVspressure.png" alt="Pressure Map">
-      </a>
-      <figcaption><em>Pressure Map</em></figcaption>
-    </figure>
-
-
-
-
-
-  </section>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
 </body>
-
 </html>

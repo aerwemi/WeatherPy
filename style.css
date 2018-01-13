@@ -1,0 +1,15 @@
+h1 { 
+color: blue;
+ font-size: 60px;
+ text-align: center;
+}
+
+.center {
+    margin: auto;
+    border: 3px solid green;
+} 
+
+img{
+    display: block;
+    margin: auto;
+} 
