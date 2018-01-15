@@ -1,7 +1,66 @@
+body {
+    background-image: url("backg.png");
+    background-color: #cccccc;
+}
+
+.tops {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background: rgba(249, 249, 249, 0.79);
+
+}
+
 .logo-nav {
     display: block;
     width: 40%;
 }
-.span3 {  
+.span3 {
     height: 500px !important;
     overflow: scroll;
+}
+
+.imgright {
+    float: right;
+}
+
+. jumbotron_h {
+    height: 120px;
+}
+
+.imgvs {
+    width: 25%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+        opacity: 0.7;
+    }
+
+.cent{
+    text-align: center;
+}
+
+
+.navbar-brand {
+    padding: 3px;
+}
+
+.navbar-brand > img {
+        height: 25%;
+        padding: 15px;
+        width: auto;
+    }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Main Page Weather APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/style.css" rel="stylesheet" />
 </head>
@@ -21,7 +22,7 @@
             <div class="collapse navbar-collapse" id="hamburger-navigation">
                 <div class="navbar-text navbar-right">
                     <a class="navbar-link" href="URL here">
-                        <img class="logo-nav img-thumbnail" src="nas_data.png" alt="logo"/>
+                        <img class="navbar-brand img-thumbnail" src="nas_data.png" alt="logo" />
                     </a>
                 </div>
                 <ul class="nav navbar-nav" role="menu">
@@ -40,9 +41,110 @@
                 </ul>
             </div>
         </div>
+        <div >
+            <p class="cent">
+                By: Naser Erwemi | Unversity of Texas at Austin : Data Analytics Program |
+                <a href="https://www.linkedin.com/in/aerwemi/" class="fa fa-linkedin"></a>
+            </p>
+        </div>
     </nav>
+    <div class="tops container-fluid">
 
-    <script src="Scripts/jquery-3.2.1.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-</body>
+        <div class="row">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <h1>Summary:</h1>
+                    <br />
+                    <div class="img-thumbnail imgright">
+                        <img src="images/CityLatitudeVsMaxTemperature.png" alt="MaxTemp">
+                    </div>
+                    <div>
+                        <p>
+                            The purpose of this project was to analyze how weather changes as you get closer to the equator. To reach this analysis, data was first pulled from OpenWeather API to assemble a database of over randomly selected 500 cities.
+                            <br />
+                            <br />
+                            After assembling the dataset, a Python plotting library was used to plot various weather aspects vs. latitude. Measurements such as tempratures, cloudiness, wind speed, humidity and other weather parameters were used.
+                            <br />
+                            <br />
+                            The website provides the source data, link to the workflow, and visualizations created as a part of the analysis and final analysis and observations.
+                        </p>
+
+
+                        <div class="row">
+                            <p class="cent">
+                                For more info, please click on the github repo 
+
+                                <a href="https://github.com/aerwemi/WeatherPy" class="btn btn-social-icon btn-github">
+                                    <span class="fa fa-github"></span>
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="jumbotron">
+                    <h1>Work Flow:</h1>
+                    <p>
+                        The purpose of this project was to analyze how weather changes as you get closer to the equator. To reach this analysis, data was first pulled from OpenWeather API to assemble a database of over randomly selected 500 cities.
+                        <br />
+                        After assembling the dataset, a Python plotting library was used to plot various weather aspects vs. latitude. Measurements such as tempratures, cloudiness, wind speed, humidity and other weather parameters were used.
+                        <br />
+                        The website provides the source data, link to the workflow, and visualizations created as a part of the analysis and final analysis and observations.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h2>Quick Vis</h2>
+                    <div class="row">
+                        <div class="col-md-2 img-thumbnail">
+                            <img src="images/CityLatitudeVsMaxTemperature.png" alt="Humidity">
+                        </div>
+                        <div class="col-md-2 img-thumbnail">
+                            <img src="images/CityLatitudeVshumidity.png" alt="Humidity">
+                        </div>
+                        <div class="col-md-2 img-thumbnail">
+                            <img src="images/CityLatitudeVsWindSpeed.png" alt="Humidity">
+                        </div>
+                        <div class="col-md-2 img-thumbnail">
+                            <img src="images/CityLatitudeVsWindDir.png" alt="Humidity">
+                        </div>
+                        <div class="col-md-2 img-thumbnail">
+                            <img src="images/CityLatitudeVsClouds.png" alt="Humidity">
+                        </div>
+                        <div class="col-md-2 img-thumbnail">
+                            <img src="images/CityLatitudeVspressure.png" alt="Humidity">
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+        <script src="Scripts/jquery-3.2.1.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+
+        
+        </body>
 </html>
