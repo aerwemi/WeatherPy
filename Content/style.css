@@ -7,8 +7,8 @@ body {
     margin-top: 20px;
 }
 
-.jumbotron {
-    background: rgba(249, 249, 249, 0.79);
+.mainw {
+    background: rgba(249, 249, 249, 0.82);
 
 }
 
@@ -17,7 +17,7 @@ body {
     width: 40%;
 }
 .span3 {
-    height: 500px !important;
+    height: 800px !important;
     overflow: scroll;
 }
 
