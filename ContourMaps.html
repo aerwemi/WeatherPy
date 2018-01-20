@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Stations</title>
+    <title>Contour Maps</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/style.css" rel="stylesheet" />
 
@@ -17,6 +17,7 @@
                     <span class="sr-only">Navigation toggle</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <a href="http://localhost:59673/Humidity.html">http://localhost:59673/Humidity.html</a>
                     <span class="icon-bar"></span>
                 </button>
             </div>
@@ -44,44 +45,45 @@
             </div>
         </div>
     </nav>
+    <div class="tops container-fluid mainw ">
 
-    <div class="container-fluid mainw">
         <div class="row">
             <br />
             <br />
             <br />
             <br />
-            <br />
         </div>
 
-        <div class="col-md-12">
-            <div class="row">
-                <div class="jumbotron">
-                    <h2>Stations</h2>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="jumbotron cont_cent">
+                        <h2>Contour Maps</h2>
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="img-thumbnail img-responsive">
+                        <img class="displayed" src="images/contour_Temp.png" alt="contour_Temp">
+                    </div>
+                    <br />
+                    <hr />
+                    <div class="img-thumbnail img-responsive">
+                        <img class="displayed" src="images/contour_WindHumidity.png" alt="Contour_Humidity">
+                    </div>
+                    <br />
+                    <hr />
+                    <div class="img-thumbnail img-responsive">
+                        <img class="displayed" src="images/contour_WindSpeed.png" alt="Contour_Wind_speed">
+                    </div>
+                    <br />
+                    <hr />
 
-            <div class="row">
-                <div class="img-thumbnail">
-                    <img src="images/stations.png" alt="Stations">
                 </div>
-            </div>
-
-            <div class="row">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
             </div>
         </div>
-
     </div>
+        <script src="Scripts/jquery-3.2.1.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
 
-
-    <script src="Scripts/jquery-3.2.1.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-
-
-</body>
+        </body>
 </html>
